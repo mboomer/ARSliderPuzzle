@@ -1,6 +1,7 @@
 {
-	const image = new Image(),
-		takePhotoButton = document.querySelector('.takePhoto');
+	const image = new Image();
+    
+    takePhotoButton = document.querySelector('.takePhoto');
 
 	let constraints, imageCapture, mediaStream, video;
 
@@ -146,25 +147,7 @@
 
 		}
 
-		
-
-	
-
 	const puzzleCheck = check => check === true;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	const shuffle = randomArray => {
 		for(let i = randomArray.length - 1; i > 0; i--) {
@@ -177,8 +160,6 @@
 		}
 		return randomArray;
 	}
-
-
 
 	window.addEventListener(`load`, () => setTimeout(() => init(), 1000));
 
