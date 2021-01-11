@@ -148,7 +148,7 @@
 
 		
 
-	}
+	
 
 	const puzzleCheck = check => check === true;
 
